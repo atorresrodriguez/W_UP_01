@@ -75,7 +75,9 @@ The numerical summary shows that skills players die about 3 times as many pushup
 t.test(pushups~position,data=mydata)
 ```
 
-the P-value is 0.00000941 
+the P-value is 0.00000941 this is less than 0.05 so i reject the $h_0$
+
+We conclude that the skill position players can do more pushups on average than can the line players
 
 # Discussion and Conclusion
 
